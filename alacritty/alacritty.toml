@@ -1,0 +1,42 @@
+import = [
+ "~/.config/alacritty/tokyo_night/tokyo_night.toml"
+]
+
+[shell]
+program = "/usr/bin/fish"
+
+[cursor]
+style = "Underline"
+
+[font]
+size = 13.0 
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[window]
+startup_mode = "Windowed"
+dynamic_padding = false
+# decorations = "none" 
+opacity = 1.00 
+
+[window.padding]
+x = 18 
+y = 16
+
+[window.dimensions]
+columns = 82 
+lines = 35 
+
+[window.position]
+x = 80 
+y = 40
+
+[scrolling]
+multiplier = 3
+
+[keyboard]
+bindings = [{key = "W", mods = "Control" , action = "CreateNewWindow"}
+    ,{key = "Z", mods = "Control" , action = "SpawnNewInstance"}]
+
